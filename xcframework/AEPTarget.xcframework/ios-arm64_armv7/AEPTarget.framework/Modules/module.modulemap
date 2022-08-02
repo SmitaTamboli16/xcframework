@@ -1,0 +1,11 @@
+framework module AEPTarget {
+  umbrella header "AEPTarget.h"
+
+  export *
+  module * { export * }
+}
+
+module AEPTarget.Swift {
+    header "AEPTarget-Swift.h"
+    requires objc
+}
